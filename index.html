@@ -42,20 +42,27 @@
       <input type="radio" name="inst" value="other">
     </fieldset>
     <fieldset for="genre">
-      <legend>what is your favorite subgenre of concert music?</legend>
-      <label for="strings">strings</label>
-      <input type="radio" name="inst" value="strings">
-      <label for="woodwind">woodwind</label>
-      <input type="radio" name="inst" value="woodwind">
-      <label for="brass">brass</label>
-      <input type="radio" name="inst" value="brass">
-      <label for="percussion">percussion</label>
-      <input type="radio" name="inst" value="percussion">
-      <label for="voice">voice</label>
-      <input type="radio" name="inst" value="voice">
+      <legend>what are your favorite subgenres of concert music?</legend>
+      <label for="early music">early music</label>
+      <input type="checkbox" name="genre" value="early music">
+      <label for="baroque">baroque</label>
+      <input type="checkbox" name="genre" value="baroque">
+      <label for="classical">classical</label>
+      <input type="checkbox" name="genre" value="classical">
+      <label for="modern">modern</label>
+      <input type="checkbox" name="genre" value="modern">
+      <label for="avant-garde">avant-garde</label>
+      <input type="checkbox" name="genre" value="avant-garde">
+      <label for="minimalism">minimalism</label>
+      <input type="checkbox" name="genre" value="minimalism">
       <label for="other">other</label>
-      <input type="radio" name="inst" value="other">
+      <input type="checkbox" name="genre" value="other">
     </fieldset>
+    <fieldset>
+      <legend>is there anything you would like to tell us?</legend>
+      <textarea name="name" rows="5" cols="50"></textarea>
+    </fieldset>
+    <button type="submit" name="submit" id="submit">submit</button>
   </form>
 </body>
 </html>

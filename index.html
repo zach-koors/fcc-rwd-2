@@ -9,16 +9,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 id="title">k n i s e l y</h1>
-  <h2 id="description">s u b s c r i b e</h2>
-  <p>submit the information below so we can send you email updates every once in a while</p>
-  <form id="survey-form" action="index.html" method="post">
+  <h1 id="title" class="card space middle">k n i s e l y</h1>
+  <h2 id="description" class="space middle">s u b s c r i b e</h2>
+  <p class="space middle">submit the information below so we can send you email updates every once in a while</p>
+  <form class="column middle" id="survey-form" action="index.html" method="post">
     <label id="name-label" for="name">name</label>
     <input type="text" name="name" placeholder="First Last" required>
+    <hr>
     <label id="email-label" for="email">email</label>
     <input type="email" name="email" placeholder="name@website.com" value="" required>
+    <hr>
     <label id="number-label" for="number">age</label>
     <input type="number" name="number" placeholder="age" min="1" max="115" required>
+    <hr>
     <label for="music-exp">what's your music background?</label>
     <select id="dropdown" class="" name="music-exp">
       <option value="" disabled selected hidden>music background</option>
@@ -26,43 +29,74 @@
       <option value="hobbyist">i make music as a hobby</option>
       <option value="professional">i make music as part of my living</option>
     </select>
-    <fieldset for="inst">
+    <hr>
+    <fieldset class="column" for="inst">
       <legend>what is your primary instrument?</legend>
-      <label for="strings">strings</label>
-      <input type="radio" name="inst" value="strings">
-      <label for="woodwind">woodwind</label>
-      <input type="radio" name="inst" value="woodwind">
-      <label for="brass">brass</label>
-      <input type="radio" name="inst" value="brass">
-      <label for="percussion">percussion</label>
-      <input type="radio" name="inst" value="percussion">
-      <label for="voice">voice</label>
-      <input type="radio" name="inst" value="voice">
-      <label for="other">other</label>
-      <input type="radio" name="inst" value="other">
+      <div>
+        <input type="radio" name="inst" value="strings">
+        <label for="strings">strings</label>
+      </div>
+      <div>
+        <input type="radio" name="inst" value="woodwind">
+        <label for="woodwind">woodwind</label>
+      </div>
+      <div>
+        <input type="radio" name="inst" value="brass">
+        <label for="brass">brass</label>
+      </div>
+      <div>
+        <input type="radio" name="inst" value="percussion">
+        <label for="percussion">percussion</label>
+      </div>
+      <div>
+        <input type="radio" name="inst" value="voice">
+        <label for="voice">voice</label>
+      </div>
+      <div>
+        <input type="radio" name="inst" value="other">
+        <label for="other">other</label>
+      </div>
     </fieldset>
+    <hr>
     <fieldset for="genre">
       <legend>what are your favorite subgenres of concert music?</legend>
-      <label for="early music">early music</label>
-      <input type="checkbox" name="genre" value="early music">
-      <label for="baroque">baroque</label>
-      <input type="checkbox" name="genre" value="baroque">
-      <label for="classical">classical</label>
-      <input type="checkbox" name="genre" value="classical">
-      <label for="modern">modern</label>
-      <input type="checkbox" name="genre" value="modern">
-      <label for="avant-garde">avant-garde</label>
-      <input type="checkbox" name="genre" value="avant-garde">
-      <label for="minimalism">minimalism</label>
-      <input type="checkbox" name="genre" value="minimalism">
-      <label for="other">other</label>
-      <input type="checkbox" name="genre" value="other">
+      <div>
+        <input type="checkbox" name="genre" value="early music">
+        <label for="early music">early music</label>
+      </div>
+      <div>
+        <input type="checkbox" name="genre" value="baroque">
+        <label for="baroque">baroque</label>
+      </div>
+      <div>
+        <input type="checkbox" name="genre" value="classical">
+        <label for="classical">classical</label>
+      </div>
+      <div>
+        <input type="checkbox" name="genre" value="modern">
+        <label for="modern">modern</label>
+      </div>
+      <div>
+        <input type="checkbox" name="genre" value="avant-garde">
+        <label for="avant-garde">avant-garde</label>
+      </div>
+      <div>
+        <input type="checkbox" name="genre" value="minimalism">
+        <label for="minimalism">minimalism</label>
+      </div>
+      <div>
+        <input type="checkbox" name="genre" value="other">
+        <label for="other">other</label>
+      </div>
     </fieldset>
+    <hr>
     <fieldset>
       <legend>is there anything you would like to tell us?</legend>
-      <textarea name="name" rows="5" cols="50"></textarea>
+      <textarea name="name" rows="5" cols="80"></textarea>
     </fieldset>
+    <hr>
     <button type="submit" name="submit" id="submit">submit</button>
+    <hr>
   </form>
 </body>
 </html>

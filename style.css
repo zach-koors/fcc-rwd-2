@@ -1,0 +1,35 @@
+body{
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.card{
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(60, 100%, 50%);
+  border-radius: .2em;
+  padding: .2em;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.space{
+  padding-bottom: 1em;
+}
+button{
+  padding: .5em;
+  border-radius: .1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.middle{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+hr{
+  border: none;
+}
+textarea{
+  resize: none;
+  width: 99%;
+}

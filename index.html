@@ -20,11 +20,42 @@
     <label id="number-label" for="number">age</label>
     <input type="number" name="number" placeholder="age" min="1" max="115" required>
     <label for="music-exp">what's your music background?</label>
-    <select id="dropdown" class="" name="music-exp" size="3">
+    <select id="dropdown" class="" name="music-exp">
+      <option value="" disabled selected hidden>music background</option>
       <option value="none">not a musician</option>
-      <option value="hobbyist">i make music as a nice hobby</option>
-      <option value="professional">i make music as a part of my living</option>
+      <option value="hobbyist">i make music as a hobby</option>
+      <option value="professional">i make music as part of my living</option>
     </select>
+    <fieldset for="inst">
+      <legend>what is your primary instrument?</legend>
+      <label for="strings">strings</label>
+      <input type="radio" name="inst" value="strings">
+      <label for="woodwind">woodwind</label>
+      <input type="radio" name="inst" value="woodwind">
+      <label for="brass">brass</label>
+      <input type="radio" name="inst" value="brass">
+      <label for="percussion">percussion</label>
+      <input type="radio" name="inst" value="percussion">
+      <label for="voice">voice</label>
+      <input type="radio" name="inst" value="voice">
+      <label for="other">other</label>
+      <input type="radio" name="inst" value="other">
+    </fieldset>
+    <fieldset for="genre">
+      <legend>what is your favorite subgenre of concert music?</legend>
+      <label for="strings">strings</label>
+      <input type="radio" name="inst" value="strings">
+      <label for="woodwind">woodwind</label>
+      <input type="radio" name="inst" value="woodwind">
+      <label for="brass">brass</label>
+      <input type="radio" name="inst" value="brass">
+      <label for="percussion">percussion</label>
+      <input type="radio" name="inst" value="percussion">
+      <label for="voice">voice</label>
+      <input type="radio" name="inst" value="voice">
+      <label for="other">other</label>
+      <input type="radio" name="inst" value="other">
+    </fieldset>
   </form>
 </body>
 </html>

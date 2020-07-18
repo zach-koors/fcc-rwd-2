@@ -4,7 +4,7 @@ body{
 }
 .card{
   color: hsl(0, 0%, 100%);
-  background-color: hsl(55, 90%, 50%);
+  background-color: hsl(50, 100%, 50%);
   border-radius: .2em;
   padding: .2em;
 }
